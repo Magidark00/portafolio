@@ -36,6 +36,7 @@ const Perfil = () => {
                                  Power BI, DAX, Power Query, modelado de datos en SQL y automatizaciones con Python.
                             </p>
                         </div>
+                    </div>
                         {/* =====================================
                             TARJETA 2: EDUCACIÓN
                         ====================================== */}  
@@ -91,7 +92,7 @@ const Perfil = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
