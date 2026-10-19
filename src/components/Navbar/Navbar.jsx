@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             {/* Sección del Logo */}
             <div className="navbar-logo">
-                <span className="text-cyan">Matias</span> Melendez
+                <span className="text-cyan">Giancarlos</span> Barboza
             </div>
 
             {/* Enlaces de Navegación */}

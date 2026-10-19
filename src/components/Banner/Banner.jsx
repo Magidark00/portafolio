@@ -23,8 +23,8 @@ const Banner = () => {
 
                 {/* 3. Título Principal */}
                 <h1 className="hero-title">
-                    Matias <br />
-                    <span className="text-cyan">Melendez</span>
+                    Giancarlos <br />
+                    <span className="text-cyan">Barboza</span>
                 </h1>
 
                 {/* 4. Subtítulo (Rol) */}
