@@ -1,111 +1,82 @@
 import './Habilidades.css'
 
 const Habilidades = () => {
-    //Arreglo de datos: Simulamos la información que podría venir de una API
+    // Arreglo de datos: cada habilidad con su certificado (si lo tiene)
     const skillData = [
         {
             id: 1,
-            titulo: "Power BI",
-            descripcion: "DAX, Data Modeling, Power Query, Governance.",
-            nivel: "Avanzado",
-            botonTexto:"VER CERTIFICADO",
-            estado: "completado" // Usaremos esto para cambiar los colores
+            titulo: "Fundamentos de Python 1",
+            descripcion: "Programación en Python desde cero.",
+            nivel: "Cisco Networking Academy · Feb 2025",
+            botonTexto: "VER CERTIFICADO",
+            link: "/certificados/cisco-python-1.pdf",
+            estado: "completado"
         },
         {
             id: 2,
-            titulo: "SQL Server / MySQL / PostGreSQL / Oracle",
-            descripcion: "SQL, T-SQL, Optimización, Procedimientos Almacenados.",
-            nivel: "Avanzado",
-            botonTexto:"VER CERTIFICADO",
+            titulo: "Introducción a la Ciencia de Datos",
+            descripcion: "Fundamentos del análisis y manejo de datos.",
+            nivel: "Cisco Networking Academy · Sep 2024",
+            botonTexto: "VER CERTIFICADO",
+            link: "/certificados/cisco-ciencia-de-datos.pdf",
             estado: "completado"
         },
         {
             id: 3,
-            titulo: "Python for Data Analyst",
-            descripcion: "Pandas, NumPy, MatplotLib, Automatización, Keras.",
-            nivel: "Avanzado",
+            titulo: "Conceptos básicos de redes",
+            descripcion: "Fundamentos de redes de computadoras.",
+            nivel: "Cisco Networking Academy · Sep 2024",
             botonTexto: "VER CERTIFICADO",
+            link: "/certificados/cisco-redes.pdf",
             estado: "completado"
         },
         {
             id: 4,
-            titulo: "Excel / VBA",
-            descripcion: "Macros, Power Pivot, Power Query, Pivot Tables, Dashboards complejos.",
-            nivel: "Experto",
+            titulo: "Conceptos Básicos de Hardware de Computadora",
+            descripcion: "Componentes y funcionamiento del hardware.",
+            nivel: "Cisco Networking Academy · Sep 2024",
             botonTexto: "VER CERTIFICADO",
+            link: "/certificados/cisco-hardware.pdf",
             estado: "completado"
         },
         {
-            id: 5, 
-            titulo: "Laravel",
-            descripcion: "Backend Developer",
-            nivel: "Avanzado",
+            id: 5,
+            titulo: "Introducción a Ciberseguridad",
+            descripcion: "Fundamentos de seguridad informática.",
+            nivel: "Cisco Networking Academy · Ago 2024",
             botonTexto: "VER CERTIFICADO",
+            link: "/certificados/cisco-ciberseguridad.pdf",
             estado: "completado"
         },
         {
-            id: 6, 
-            titulo: "React",
-            descripcion: "Contrucción de Interfaces de Usuario Modernas a partir de Componentes.",
-            nivel: "Aprendizaje Activo",
+            id: 6,
+            titulo: "Introducción al Internet de las Cosas y Transformación Digital",
+            descripcion: "IoT y su rol en la transformación digital.",
+            nivel: "Cisco Networking Academy · Ago 2024",
             botonTexto: "VER CERTIFICADO",
+            link: "/certificados/cisco-iot.pdf",
+            estado: "completado"
+        },
+        // Habilidades sin certificado: no llevan link ni botón
+        {
+            id: 7,
+            titulo: "R",
+            descripcion: "Análisis de datos y estadística.",
+            nivel: "Uso práctico",
             estado: "completado"
         },
         {
-            id: 7, 
-            titulo: "Angular",
-            descripcion: "Construcción de aplicaciones web de una sola página.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
+            id: 8,
+            titulo: "HTML",
+            descripcion: "Estructura y maquetación de páginas web.",
+            nivel: "Uso práctico",
             estado: "completado"
         },
-        {
-            id: 8, 
-            titulo: "Git",
-            descripcion: "Sistema de control de Versiones.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 9, 
-            titulo: "GitHub",
-            descripcion: "Repositorio en la nube.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 10, 
-            titulo: "JavaScript",
-            descripcion: "Lenguaje de programación interpretado, dialecto del estándar ECMAScript.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 11, 
-            titulo: "Grid",
-            descripcion: "Construcción de rejillas responsivas.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 12, 
-            titulo: "Flexbox",
-            descripcion: "Método de diseño de página unidimensional para compaginar elementos en filas o columnas.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-
     ];
 
     return (
         <section id="tech-stack" className="habilidades-section">
             <div className="habilidades-container">
-                {/* Iteramos sobre el arreglo de datos usando .map() */}
                 <div className="habilidades-grid">
                     {skillData.map((skill) => (
                         <div key={skill.id} className="skill-card">
@@ -113,7 +84,6 @@ const Habilidades = () => {
                             {/* Cabecera de la tarjeta: Ícono y Botón */}
                             <div className="skill-header">
                                 <div className="skill-icon">
-                                    {/* Aquí pueden colocar la etiqueta <img src={logoPowerBI} /> */}
                                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-cyan">
                                         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
@@ -122,10 +92,17 @@ const Habilidades = () => {
                                     </svg>
                                 </div>
 
-                                {/* Clases dinámicas: Si el estado es proceso, aplicamos la clase 'btn-proceso' */}
-                                <span className={`skill-badge ${skill.estado === 'proceso' ? 'badge-yellow' : 'badge-green'}`}>
-                                    {skill.botonTexto}
-                                </span>
+                                {/* El botón solo se muestra si la habilidad tiene certificado */}
+                                {skill.link && (
+                                    <a
+                                        href={skill.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={`skill-badge ${skill.estado === 'proceso' ? 'badge-yellow' : 'badge-green'}`}
+                                    >
+                                        {skill.botonTexto}
+                                    </a>
+                                )}
                             </div>
 
                             {/* Cuerpo de la tarjeta: Textos */}

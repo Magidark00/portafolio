@@ -63,15 +63,17 @@ color: #00d8ff;
 BOTONES / ETIQUETAS SUPERIORES
 ========================================= */
 .skill-badge {
-font-size: 0.75rem;
-font-weight: 700;
-padding: 0.4rem 0.8rem;
-border-radius: 20px;
-letter-spacing: 0.5px;
-border: 1px solid;
-background-color: transparent;
-cursor: pointer;
-transition: background-color 0.3s ease;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;   /* quita el subrayado del enlace */
+    white-space: nowrap;     /* evita que "VER CERTIFICADO" se parta en dos líneas */
 }
 /* Variante Verde (Certificado) */
 .badge-green {

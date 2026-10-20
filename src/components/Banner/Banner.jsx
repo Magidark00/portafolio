@@ -29,16 +29,16 @@ const Banner = () => {
 
                 {/* 4. Subtítulo (Rol) */}
                 <h2 className="hero-subtitle">
-                Consultor e Instructor BI - Software | MOS Excel Expert | Power
-                BI Data Analyst | Ingeniero de Sistemas
+                Ingeniería de Software con IA | Python & R | Sistemas Inteligentes y Automatización
                 </h2>
 
                 {/* 5. Descripción */}
                 <p className="hero-description">
-                    Construyo sistemas inteligentes que automatizan procesos, analizan
-                    datos y transforman la información. También desarrollo aplicaciones 
-                    web funcionales para resolver necesidades reales. Consultoría de Software
-                    y BI para empresas.
+                    Estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI. 
+                    Desarrollo soluciones con Python y R para automatizar procesos y analizar datos, 
+                    y creo páginas web con HTML. Actualmente trabajo en un sistema multiagente para 
+                    la continuidad operativa de equipos médicos. Busco oportunidades de prácticas y empleo 
+                    donde pueda aportar y seguir creciendo. Explora mis proyectos más abajo.
                 </p>
 
                 {/* 6. Botones de Acción */}

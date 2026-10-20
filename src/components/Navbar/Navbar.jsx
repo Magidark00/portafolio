@@ -18,7 +18,6 @@ const Navbar = () => {
                 <a href="#sobre-mi" onClick={() => setIsOpen(false)}>Perfil</a>
                 <a href="#tech-stack" onClick={() => setIsOpen(false)}>Tech Stack</a>
                 <a href="#proyectos" onClick={() => setIsOpen(false)}>Proyectos</a>
-                <a href="#servicios" onClick={() => setIsOpen(false)}>Servicios</a>
                 <a href="#contacto" onClick={() => setIsOpen(false)}>Contacto</a>
             </div>
 
