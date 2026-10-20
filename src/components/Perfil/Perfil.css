@@ -3,7 +3,7 @@ CONTENEDOR PRINCIPAL
 ========================================= */
 .sobre-mi-section {
 padding: 5rem 5%;
-background-color: #0b0f19; /* Continuidad del fondo oscuro */
+background-color: #0a1210; /* Continuidad del fondo oscuro */
 color: #ffffff;
 display: flex;
 justify-content: center;
@@ -33,7 +33,7 @@ gap: 2rem;
 TARJETAS (Cards)
 ========================================= */
 .card {
-background-color: #111a2e; /* Un tono ligeramente más claro que el
+background-color: #0f1c17; /* Un tono ligeramente más claro que el
 fondo */
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 12px;
@@ -87,7 +87,7 @@ left: -5px; /* Centra el punto sobre el borde izquierdo */
 top: 5px;
 width: 8px;
 height: 8px;
-background-color: #111a2e;
+background-color: #0f1c17;
 border: 2px solid #6ee7b7;
 border-radius: 50%;
 }
@@ -126,7 +126,7 @@ background-color: transparent;
 }
 .badge-solid {
 background-color: #6ee7b7;
-color: #0b0f19;
+color: #0a1210;
 }
 /* =========================================
 RESPONSIVIDAD (Celulares y Tablets)

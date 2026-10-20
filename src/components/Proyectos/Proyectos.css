@@ -3,7 +3,7 @@ CONTENEDOR PRINCIPAL
 ========================================= */
 .proyectos-section {
 padding: 5rem 5%;
-background-color: #0b0f19;
+background-color: #0a1210;
 display: flex;
 justify-content: center;
 }
@@ -26,7 +26,7 @@ gap: 2.5rem;
 TARJETA DEL PROYECTO
 ========================================= */
 .proyecto-card {
-background-color: #111a2e;
+background-color: #0f1c17;
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 16px;
 overflow: hidden; /* Clave para que la imagen no se salga de las curvas */
@@ -107,12 +107,12 @@ text-decoration: none;
 transition: all 0.3s ease;
 }
 .btn-demo {
-color: #00d8ff;
-border: 1px solid #00d8ff;
-background-color: rgba(0, 216, 255, 0.05);
+color: #34d399;
+border: 1px solid #34d399;
+background-color: rgba(52, 211, 153, 0.05);
 }
 .btn-demo:hover {
-background-color: rgba(0, 216, 255, 0.15);
+background-color: rgba(52, 211, 153, 0.15);
 }
 .btn-codigo {
 color: #ffffff;

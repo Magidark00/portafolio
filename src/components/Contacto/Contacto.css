@@ -3,7 +3,7 @@ CONTENEDOR PRINCIPAL
 ========================================= */
 .contacto-section {
 padding: 6rem 5%;
-background-color: #050810; /* Un fondo ligeramente más oscuro para
+background-color: #050b08; /* Un fondo ligeramente más oscuro para
 cerrar la página */
 color: #ffffff;
 display: flex;
@@ -11,7 +11,7 @@ flex-direction: column;
 align-items: center;
 }
 .contacto-main-title {
-color: #00d8ff;
+color: #34d399;
 font-size: 2.5rem;
 font-weight: 700;
 margin-bottom: 4rem;
@@ -56,7 +56,7 @@ gap: 1rem;
 .info-icon {
 background-color: rgba(255, 255, 255, 0.03);
 border: 1px solid rgba(255, 255, 255, 0.1);
-color: #00d8ff;
+color: #34d399;
 width: 45px;
 height: 45px;
 border-radius: 12px;
@@ -79,7 +79,7 @@ color: #ffffff;
 COLUMNA DERECHA (Formulario)
 ========================================= */
 .contacto-form-wrapper {
-background-color: #111a2e;
+background-color: #0f1c17;
 padding: 2.5rem;
 border-radius: 16px;
 border: 1px solid rgba(255, 255, 255, 0.05);
@@ -116,8 +116,8 @@ transition: all 0.3s ease;
 /* Efecto FOCUS (Borde Cyan al hacer clic) */
 .form-group input:focus,
 .form-group textarea:focus {
-border-color: #00d8ff;
-box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+border-color: #34d399;
+box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.2);
 }
 .form-group input::placeholder,
 .form-group textarea::placeholder {
@@ -130,8 +130,8 @@ resize: vertical;
 BOTÓN ENVIAR
 ========================================= */
 .btn-submit {
-background-color: #00d8ff;
-color: #050810;
+background-color: #34d399;
+color: #050b08;
 border: none;
 padding: 1rem;
 border-radius: 8px;
@@ -142,7 +142,7 @@ transition: background-color 0.3s ease, transform 0.2s ease;
 margin-top: 0.5rem;
 }
 .btn-submit:hover {
-background-color: #00bce6;
+background-color: #10b981;
 transform: translateY(-2px);
 }
 /* =========================================

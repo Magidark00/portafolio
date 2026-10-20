@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background-color: #0b0f19; /* Fondo oscuro elegante */
+    background-color: #0a1210; /* Fondo oscuro elegante */
     color:#ffffff;
     position: sticky;
     top: 0;
@@ -26,7 +26,7 @@
 }
 
 .text-cyan {
-    color: #00d8ff; /* Color de acento (Cyan) */
+    color: #34d399; /* Color de acento (Cyan) */
 }
 
 /* =========================================
@@ -82,7 +82,7 @@ MEDIA QUERY: VERSIÓN MÓVIL Y TABLET
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #0b0f19;
+        background-color: #0a1210;
         padding: 2rem 0;
         text-align: center;
         gap: 2rem;

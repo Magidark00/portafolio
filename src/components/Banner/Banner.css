@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: radial-gradient(circle at center, #111a2e 0%, #0b0f19 70%);
+    background: radial-gradient(circle at center, #0f1c17 0%, #0a1210 70%);
     color: #ffffff;
     padding: 2rem 5%;
     position: relative;
@@ -39,7 +39,7 @@
 .status-dot {
 width: 8px;
 height: 8px;
-background-color: #00d8ff; /* Cyan */
+background-color: #34d399; /* Verde Esmeralda */
 border-radius: 50%;
 box-shadow: 0 0 8px #00d8ff; /* Efecto de brillo */
 }
@@ -55,8 +55,8 @@ width: 160px;
 height: 160px;
 object-fit: cover; /* Evita que la foto se estire si no es cuadrada */
 border-radius: 50%; /* Hace que sea un círculo perfecto */
-border: 6px solid rgba(5, 163, 215, 0.8); /* Borde sutil cyan */
-box-shadow: 0 0 20px rgba(5, 163, 215, 0.8); /* Sombra brillante */
+border: 6px solid rgba(16, 185, 129, 0.8); /* Borde sutil cyan */
+box-shadow: 0 0 20px rgba(16, 185, 129, 0.8); /* Sombra brillante */
 }
 /* =========================================
 TIPOGRAFÍA (Títulos y Descripción)
@@ -68,11 +68,11 @@ line-height: 1.1;
 margin-bottom: 1.5rem;
 }
 .text-cyan {
-color: #00d8ff;
+color: #34d399;
 }
 .hero-subtitle {
 font-size: 1.1rem;
-color: #00d8ff;
+color: #34d399;
 font-weight: 500;
 margin-bottom: 1.5rem;
 }
@@ -100,13 +100,13 @@ transition: all 0.3s ease;
 cursor: pointer;
 }
 .btn-primary {
-background-color: #00d8ff;
-color: #0b0f19;
-border: 2px solid #00d8ff;
+background-color: #34d399;
+color: #0a1210;
+border: 2px solid #34d399;
 }
 .btn-primary:hover {
 background-color: transparent;
-color: #00d8ff;
+color: #34d399;
 }
 .btn-secondary {
 background-color: transparent;

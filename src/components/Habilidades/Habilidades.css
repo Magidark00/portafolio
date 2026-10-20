@@ -3,7 +3,7 @@ CONTENEDOR PRINCIPAL
 ========================================= */
 .habilidades-section {
 padding: 5rem 5%;
-background-color: #0b0f19;
+background-color: #0a1210;
 display: flex;
 justify-content: center;
 }
@@ -25,7 +25,7 @@ gap: 1.5rem;
 TARJETA (Card)
 ========================================= */
 .skill-card {
-background-color: #111a2e;
+background-color: #0f1c17;
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 12px;
 padding: 2rem;
@@ -57,7 +57,7 @@ align-items: center;
 justify-content: flex-start;
 }
 .text-cyan {
-color: #00d8ff;
+color: #34d399;
 }
 /* =========================================
 BOTONES / ETIQUETAS SUPERIORES
